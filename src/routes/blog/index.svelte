@@ -92,7 +92,7 @@
 
   <!-- class:클래스 명={true/false} true일 경우 class="클래스 명", false일 경우 class=""이 된다.-->
   <ul class:a={false}>
-    {#each posts as post, Index(post.id)}
+    {#each posts as post, index(post.id)}
       <li>[{post.id}] {post.title}</li>
     {/each}
   </ul>
