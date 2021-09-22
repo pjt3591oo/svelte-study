@@ -22,6 +22,7 @@ $ npm run build
 
   - __layout.svelte, __error.svelte와 같은 특수 파일 제공
 
+* js, ts 파일로 만들어진 코드는 서버 역할을 수행, get, post, put, delete 함수를 만들어 http method 라우팅 가능
 
 * props/store 제공
 
